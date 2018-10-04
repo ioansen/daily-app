@@ -132,10 +132,13 @@ public class LabelsRepository implements
     public void removeLabel(Label label){
 
         int position = findLabelPosition(label);
-        labels.remove(position);
-        if ( listener != null){
-            listener.onRemoveLabel(position);
+        if (position != -1){
+            labels.remove(position);
+            if ( listener != null){
+                listener.onRemoveLabel(position);
+            }
         }
+
     }
 
     public void removeLabelRepository(LabelsRepository other){
@@ -158,7 +161,8 @@ public class LabelsRepository implements
                 return i;
             }
         }
-        throw new AssertionError("Label: " + label.getId() + " not found");
+        //throw new AssertionError("Label: " + label.getId() + " not found");
+        return -1;
     }
 
     public Label getLabelByPosition(int position){
