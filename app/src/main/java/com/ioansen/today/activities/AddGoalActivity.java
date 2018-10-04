@@ -310,7 +310,7 @@ public class AddGoalActivity extends AppCompatActivity
                         .onPositive(new MaterialDialog.SingleButtonCallback() {
                             @Override
                             public void onClick(MaterialDialog dialog, DialogAction which) {
-                                dialogLabelsRepository.removeLabel(position);
+                                dialogLabelsRepository.removeLabel(toRemoveLabel);
                                 goalsLabelRepository.removeLabel(toRemoveLabel);
                                 new TodayDatabaseHelper.RemoveLabelTask().execute(toRemoveLabel);
 
