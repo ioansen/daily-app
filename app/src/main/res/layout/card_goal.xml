@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/card_view"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+
+   <!-- <TextView
+        android:id="@+id/text_name_finished"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold|italic"
+        android:textColor="#b0000000"
+        android:textSize="20sp"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        android:visibility="invisible"
+        android:background="@color/layout_done_transparent"
+        />-->
+
+    <LinearLayout
+        android:id="@+id/layout_not_finished"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/done"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginEnd="20dp"
+            android:contentDescription="@string/done_icon"
+            android:scaleType="center"
+            />
+
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:id="@+id/content_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/labels_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:orientation="horizontal">
+                    </LinearLayout>
+
+                    <!--<ImageView
+                        android:id="@+id/label_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:scaleType="center"
+                        android:layout_marginEnd="6dp"
+                        android:src="@drawable/ic_fiber_manual_record_white_14dp"
+                        />-->
+
+                    <TextView
+                        android:id="@+id/name_text"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#b0000000"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/desc_text"
+                    android:textSize="12sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/overlay_boolean"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@color/transparent"
+                android:visibility="invisible"
+                />
+
+            <View
+                android:id="@+id/overlay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/default_background"
+                android:alpha="0.5"
+                android:visibility="invisible"
+                />
+
+        </FrameLayout>
+
+
+
+        <!--<TextView
+            android:id="@+id/diff_text"
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:id="@+id/imp_text"
+            android:layout_width="0dp"
+            android:gravity="end"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />-->
+
+
+        <ImageView
+            android:id="@+id/handle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:contentDescription="@string/drag_handle"
+            android:scaleType="center"
+            android:src="@drawable/ic_drag_handle_black70_24dp"
+            />
+
+
+
+    </LinearLayout>
+
+   <!-- <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:minHeight="1dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="30dp"
+        android:id="@+id/bar1"
+        android:layout_alignParentBottom="true"
+        android:background="#25000000"
+        android:visibility="visible"/>-->
+<!--    <View
+        android:id="@+id/background_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_orange_dark"
+        android:alpha="0.5"
+        android:visibility="invisible"
+        />-->
+</RelativeLayout>
+

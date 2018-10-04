@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary1200">#7b0000</color>
+    <color name="colorPrimary900">#B21900</color>
+    <color name="colorPrimary800">#c12510</color>
+    <color name="colorPrimary700">#ce2c18</color>
+    <color name="colorPrimary600">#d7371d</color>
+    <color name="colorPrimary500">#ed421c</color>
+    <color name="colorPrimary400">#eb503d</color>
+    <color name="colorPrimary300">#e36f65</color>
+    <color name="colorPrimary200">#ef9790</color>
+    <color name="colorPrimary100">#ffcbcc</color>
+    <color name="colorPrimary50">#ffeaec</color>
+
+
+
+    <color name="colorAccent900">#00646d</color>
+    <color name="colorAccent800">#008699</color>
+    <color name="colorAccent700">#009ab2</color>
+    <color name="colorAccent600">#08afcd</color>
+    <color name="colorAccent500">#0ebfe1</color>
+    <color name="colorAccent400">#29c9e6</color>
+    <color name="colorAccent300">#4fd2ec</color>
+    <color name="colorAccent200">#82e0f3</color>
+    <color name="colorAccent100">#b3ecf8</color>
+    <color name="colorAccent50">#e1f7fc</color>
+
+
+    <color name="colorPrimary">@color/colorPrimary900</color>
+    <color name="colorPrimaryDark">@color/colorPrimary1200</color>
+    <color name="colorPrimaryLight">@color/colorPrimary400</color>
+    <color name="colorAccent">@color/colorAccent700</color>
+    <color name="colorAccentDark">@color/colorAccent900</color>
+    <color name="colorAccentLight">@color/colorAccent300</color>
+
+   <!-- <color name="colorAccent">@color/colorPrimary900</color>
+    <color name="colorAccentDark">@color/colorPrimary1200</color>
+    <color name="colorAccentLight">@color/colorPrimary400</color>
+    <color name="colorPrimary">@color/colorAccent700</color>
+    <color name="colorPrimaryDark">@color/colorAccent900</color>
+    <color name="colorPrimaryLight">@color/colorAccent300</color>-->
+
+
+<!--    <color name="colorPrimary">#ff1ca337</color>
+    <color name="colorPrimaryDark">#FF1D7C2F</color>
+    <color name="colorPrimaryLight">#ff1b9531</color>
+    <color name="colorAccent">@color/colorPrimary</color>-->
+
+    <color name="light_gray">#10000000</color>
+    <color name="dark_gray">#55000000</color>
+    <color name="middle_gray">#40000000</color>
+    <color name="dark_dark_gray">#AA000000</color>
+    <color name="ltgray">#EEEEEE</color>
+
+    <color name="done">#1D412B</color>
+    <color name="salmon">#FA8072</color>
+    <color name="layout_pressed">@color/colorAccent200</color>
+    <color name="layout_focused">#ffffff</color>
+    <color name="layout_default">#ffffff</color>
+    <color name="layout_done">#77cd7f</color>
+    <color name="layout_done_transparent">#B057c263</color>
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="onPrimary">@android:color/white</color>
+    <color name="onSecondory">@android:color/white</color>
+
+    <color name="class_work">#33aa33</color>
+    <color name="class_self_development">#dd9900</color>
+    <color name="class_photography">#3000aa</color>
+    <color name="class_school">#00aadd</color>
+    <color name="class_fitness">#cc0000</color>
+    <color name="class_none">#777</color>
+    <color name="whitehalfalpha">#77ffffff</color>
+    <color name="default_background">#fafafa</color>
+</resources>

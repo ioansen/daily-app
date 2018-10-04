@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:inputType="textCapSentences"
+        android:textSize="16sp"
+        android:textColor="@color/dark_dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name">
+
+        <requestFocus/>
+    </EditText>
+
+<!--    <View
+    android:layout_width="wrap_content"
+    android:layout_height="1dp"
+    android:minHeight="1dp"
+    android:id="@+id/bar1"
+    android:background="#25000000"
+    android:visibility="visible"/>-->
+
+    <EditText
+        android:id="@+id/description"
+        android:inputType="textCapSentences"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_dark_gray"
+        android:layout_height="wrap_content"
+        android:hint="@string/description" />
+
+    <EditText
+        android:id="@+id/difficulty"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/difficulty" />
+
+    <EditText
+        android:id="@+id/importance"
+        android:inputType="number"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/dark_dark_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/importance" />
+
+</LinearLayout>

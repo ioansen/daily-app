@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Today</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_recursive_goal">Recursive</string>
+    <string name="add_new_goal">New</string>
+    <string name="add_today_goal">Add a goal for today</string>
+    <string name="new_label">New Label</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
+    <string name="choose">Choose</string>
+
+    <string name="remove">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Back</string>
+
+    <string name="ok">Ok</string>
+    <string name="add">Add</string>
+    <string name="input_prefill"></string>
+    <string name="create">Create</string>
+    <string name="ddefault">Default</string>
+    <string name="generate">Generate</string>
+
+    <string name="new_goal">New Goal</string>
+    <string name="Today_goal">Today Goal</string>
+    <string name="quick">Quick</string>
+    <string name="labels">Labels</string>
+
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="importance">Importance</string>
+
+    <string name="name_hint"><font size="15">Name</font></string>
+    <string name="description_hint"><font size="15">Description</font></string>
+    <string name="difficulty_hint"><font size="15">Difficulty</font></string>
+    <string name="importance_hint"><font size="15">Importance</font></string>
+
+    <string name="nav_goals">Collection</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <string name="recursive_goals">Recursive Goals</string>
+    <string name="calendar">Calendar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drag_handle">drag handle icon</string>
+    <string name="done_icon">on done icon</string>
+    <string name="color">Color</string>
+    <string name="add_label">Add Label</string>
+    <string name="done">Done</string>
+
+    <string name="add_goal_name">Add goal name</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet</string>
+    <string name="recursive">Recursive</string>
+    <string name="none">None</string>
+    <string name="label">Label</string>
+    <string name="Photography">Photography</string>
+
+    <string-array name="chooseNumber">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="no_more_recursive_goal_left_to_add">No more recursive goals left to add</string>
+
+
+</resources>
