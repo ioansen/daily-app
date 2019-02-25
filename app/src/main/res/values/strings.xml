@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Today</string>
+    <string name="app_name">Daily</string>
     <string name="action_settings">Settings</string>
     <string name="add_recursive_goal">Recursive</string>
     <string name="add_new_goal">New</string>

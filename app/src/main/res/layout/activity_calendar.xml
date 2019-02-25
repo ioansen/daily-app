@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/calendar_fragment"
-        android:name="com.ioansen.today.fragments.CalendarFragment"
+        android:name="com.ioansen.dailyapp.fragments.CalendarFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -28,7 +28,7 @@
 
     <fragment
         android:id="@+id/calendar_detail_fragment"
-        android:name="com.ioansen.today.fragments.CalendarDetailFragment"
+        android:name="com.ioansen.dailyapp.fragments.CalendarDetailFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"

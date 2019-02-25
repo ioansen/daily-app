@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ioansen.today">
+    package="com.ioansen.dailyapp">
 
     <application
         android:allowBackup="false"
@@ -10,31 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.TodayActivity"
+            android:name="com.ioansen.dailyapp.activities.DailyHomeActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
+
+                <!--<action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="ioansen.com"
+                    />-->
             </intent-filter>
 
         </activity>
         <activity
-            android:name=".activities.CollectionActivity"
+            android:name="com.ioansen.dailyapp.activities.CollectionActivity"
             android:label="@string/recursive_goals"
-            android:parentActivityName=".activities.TodayActivity">
+            android:parentActivityName="com.ioansen.dailyapp.activities.DailyHomeActivity">
 
         </activity>
         <activity
-            android:name=".activities.CalendarActivity"
+            android:name="com.ioansen.dailyapp.activities.CalendarActivity"
             android:label="@string/calendar"
-            android:parentActivityName=".activities.TodayActivity">
+            android:parentActivityName="com.ioansen.dailyapp.activities.DailyHomeActivity">
 
         </activity>
-        <activity android:name=".activities.AddGoalActivity"
+        <activity android:name="com.ioansen.dailyapp.activities.AddGoalActivity"
             android:windowSoftInputMode="stateVisible"
-            android:parentActivityName=".activities.TodayActivity"
+            android:parentActivityName="com.ioansen.dailyapp.activities.DailyHomeActivity"
             >
 
         </activity>
